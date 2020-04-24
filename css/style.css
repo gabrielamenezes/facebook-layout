@@ -1,0 +1,135 @@
+/*  GERAL
+***********/
+* {
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    margin: 0;
+}
+
+
+/*  HEADER
+***********/
+.ancora-logo {
+    text-decoration: none;
+    color: white;
+}
+.logo-title {
+    position: absolute;
+    color: white;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-weight: 950;
+}
+.main-header {
+    position: relative;
+    background-color: rgb(59,89,152);
+    height: 80px;
+}
+.login {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/*  LOGIN
+***********/
+
+.block-email {
+    position: absolute;
+    right: 200px;
+    top: 0;
+    margin-right: 40px;
+    padding-top: 14px;
+}
+
+.block-senha {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    margin-right: 49px;
+    padding-top: 14px;
+}
+
+.p-email{
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.login-btn {
+    position: absolute;
+    top: 29px;
+    right: 16px;
+    color: white;
+    background-color: rgb(59,89,152) ;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 53px;
+    height: 22px;
+}
+
+
+/*  SECTION 1 
+***********/
+.section-text {
+    padding-top: 5px;
+}
+.section-title {
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+
+.recent-login {
+    margin-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+.icon-add-conta {
+    height: 50px;
+    color: rgb(59,89,152);
+}
+
+.block-add-conta {
+    margin: 16px;
+    height: 154px;
+    width: 146px;
+    float: left;
+    display: block;
+    background-color: rgb(230, 232, 239);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.block-add-conta .icon-add-conta {
+    width: 100%;
+    float: left;
+    display: block;
+    background: rgb(230, 232, 239);
+    padding: 50px 0;
+}
+
+.block-text {
+
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    background: white;
+    display: block;
+}
+/*  FORM ********/
+.form-letters {
+    position: relative;
+    float: right;
+}
+
+.title-form {
+    word-spacing: 3px;
+    padding-bottom: 6px;
+    font-weight: 500;
+}
+
+.input {
+    position: absolute;
+}
+/*  FOOTER
+***********/
