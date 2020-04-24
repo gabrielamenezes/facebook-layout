@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+body {
+    background-color: #dfe3ee;
+}
+
 
 /*  HEADER
 ***********/
@@ -22,7 +26,7 @@
 }
 .main-header {
     position: relative;
-    background-color: rgb(59,89,152);
+    background-color: #3b5998;
     height: 80px;
 }
 .login {
@@ -53,22 +57,54 @@
     font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
     font-size: 12px;
     color: white;
+    padding-bottom: 4px;
 }
 
 .login-btn {
     position: absolute;
-    top: 29px;
+    top: 30px;
     right: 16px;
     color: white;
-    background-color: rgb(59,89,152) ;
+    background-color: #4267b2;
     border: 1px solid rgba(0, 0, 0, 0.3);
     width: 53px;
     height: 22px;
+    padding-bottom: 20px;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+}
+
+.forgot {
+    color: white;
+}
+
+.link-forgot {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.658);
+    font-size: small;
 }
 
 
 /*  SECTION 1 
 ***********/
+.block-content {
+    width: 100%;
+
+}
+
+.block-left {
+    width: 50%;
+    float: left;
+
+}
+
+.block-right {
+    width: 50%;
+    float: left;
+    background-color: yellow;
+}
 .section-text {
     padding-top: 5px;
 }
@@ -118,18 +154,17 @@
 }
 /*  FORM ********/
 .form-letters {
-    position: relative;
-    float: right;
+    text-align: center;
 }
 
 .title-form {
-    word-spacing: 3px;
-    padding-bottom: 6px;
-    font-weight: 500;
+    font-size: 26pt;
+    padding: 10px;
 }
 
-.input {
-    position: absolute;
+.pform {
+    margin-right: 130px;
 }
+
 /*  FOOTER
 ***********/

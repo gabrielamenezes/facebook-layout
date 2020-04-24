@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
     <header class="main-header">
@@ -17,31 +17,42 @@
         <div class="block-senha">
             <p class="p-email">Senha</p>
             <input class="login-input" type="password">
+            <p class="forgot"><a href="forgot.js" class="link-forgot">Esqueceu a conta?</a></p>
         </div>
 
             <button class="login-btn">Entrar</button>
     </header>
 
-        <section class="recent-login">
-            <h1 class="section-title">Logins recentes</h1>
-            <p class="section-text">Clique na sua foto ou adicione uma conta</p>
+        <section class="block-content">
+            <div class="block-left">
+                <div class="recent-login">
+                    <h1 class="section-title">Logins recentes</h1>
+                    <p class="section-text">Clique na sua foto ou adicione uma conta</p>
+                </div>
+
+                <div class="block-add-conta">
+                    <div class="block-icon">
+                        <img class="icon-add-conta" src="../svg fail/plus-circle-solid.svg" alt="plus-conta">
+                    </div>
+                    <div class="block-text">
+                        <p>Adicionar conta</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block-right">
+                <div class="form-letters">
+                    <p class="title-form">Abra uma conta</p>
+                    <p class="pform">É rápido e fácil.</p>
+                </div>
+
+                <div class=" block-form">
+                    <form>
+                        <input type="text" placeholder="Nome" class="input">
+                    </form>
+
+                </div> 
+            </div>
         </section>
-
-        <div class="block-add-conta">
-            <div class="block-icon">
-                <img class="icon-add-conta" src="./plus-circle-solid.svg" alt="plus-conta">
-            </div>
-            <div class="block-text">
-                <p>Adicionar conta</p>
-            </div>
-        </div>
-
-        <div class="form-letters">
-            <h1 class="title-form">Abra uma conta</h1>
-            <p class="pform">É rápido e fácil.</p>
-            <input type="text" id="nome" class="input" placeholder="Nome">
-
-    
-
 </body>
 </html>
