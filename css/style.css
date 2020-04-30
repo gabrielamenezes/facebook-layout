@@ -1,170 +1,249 @@
-/*  GERAL
-***********/
+/*
+RESETS E PADRÕES 
+*/
+
 * {
-    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
     margin: 0;
+    border: 0;
+    font-family: helvetica, sans-serif;
+}
+
+ul, ol, li {
+    text-decoration: none;
+    list-style: none;
+}
+/*
+GERAL
+
+*/
+.resize {
+    width: 100%;
+    display: table;
+    max-width: 990px;
+    margin: 0 auto;
+    height: 100%;
 }
 
 body {
-    background-color: #dfe3ee;
+    background-color: #e9ebee;
 }
 
-
-/*  HEADER
-***********/
-.ancora-logo {
+a {
     text-decoration: none;
-    color: white;
+
 }
-.logo-title {
-    position: absolute;
-    color: white;
-    margin-left: 10px;
-    padding-top: 20px;
-    padding-left: 40px;
-    font-weight: 950;
-}
+/* 
+HEADER BLOCK LEFT
+*/
+
 .main-header {
-    position: relative;
-    background-color: #3b5998;
     height: 80px;
-}
-.login {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-/*  LOGIN
-***********/
-
-.block-email {
-    position: absolute;
-    right: 200px;
-    top: 0;
-    margin-right: 40px;
-    padding-top: 14px;
+    background-color: #3b5998;
 }
 
-.block-senha {
-    position: absolute;
-    right: 30px;
-    top: 0;
-    margin-right: 49px;
-    padding-top: 14px;
-}
-
-.p-email{
-    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
-    font-size: 12px;
+.main-header h1{
     color: white;
-    padding-bottom: 4px;
-}
-
-.login-btn {
-    position: absolute;
-    top: 30px;
-    right: 16px;
-    color: white;
-    background-color: #4267b2;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    width: 53px;
-    height: 22px;
-    padding-bottom: 20px;
-}
-
-.login-btn:hover {
-    cursor: pointer;
-}
-
-.forgot {
-    color: white;
-}
-
-.link-forgot {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.658);
-    font-size: small;
-}
-
-
-/*  SECTION 1 
-***********/
-.block-content {
-    width: 100%;
-
+    padding-top: 20px;
 }
 
 .block-left {
-    width: 50%;
     float: left;
-
+    width: 50%;
+    height: 100%;
 }
+
+/* 
+HEADER BLOCK RIGHT
+*/
 
 .block-right {
-    width: 50%;
     float: left;
-    background-color: yellow;
-}
-.section-text {
-    padding-top: 5px;
-}
-.section-title {
-    word-spacing: 2px;
-    letter-spacing: 0.5px;
+    height: 100%;
 }
 
-.recent-login {
-    margin-left: 20px;
-    padding-top: 10px;
-    margin-bottom: 15px;
+.login {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    font-size: 0.8em;
 }
-.icon-add-conta {
-    height: 50px;
-    color: rgb(59,89,152);
+
+.login p {
+    margin-bottom: 5px;
+}
+
+.login input {
+    height: 23px;
+    border-radius: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    width: 159px;
+}
+
+.block-btn {
+    float: right;
+    padding-top: 31px;
+    height: 100%;
+}
+
+#btn-signin {
+    height: 23px;
+    width: 48px;
+    color: white;
+    background-color: #4267b2;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    font-weight: 600;
+} 
+
+/*
+SECTION BLOCK LEFT 
+*/
+section .block-left {
+    width: 50%;
+    padding-top: 40px;
+    height: 100%;
+    padding-right: 48px;
 }
 
 .block-add-conta {
-    margin: 16px;
-    height: 154px;
-    width: 146px;
+    height: 182px;
+    background-color: white;
+    width: 143px;
+    /* margin-top: 0px; */
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
     float: left;
-    display: block;
-    background-color: rgb(230, 232, 239);
-    padding: 20px;
+    margin-left: 10px;
+}
+
+h1.section-title { 
+    padding-bottom: 5px;
+    font-size: 36px;
+    color: #333333;
+}
+
+.block-txt {
+    width: auto;
+    height: 20px;
+    background-color: white;
+    padding-top: 2px;
     text-align: center;
-    border: 1px solid lightgrey;
-    border-radius: 10px;
-}
-
-.block-add-conta .icon-add-conta {
-    width: 100%;
-    float: left;
     display: block;
-    background: rgb(230, 232, 239);
-    padding: 50px 0;
+    margin-top: 8px;
 }
 
-.block-text {
-
-    width: 100%;
-    float: left;
-    font-size: 14px;
-    background: white;
+.block-icon {
+    width: 134px;
+    background-color: #f5f6f7;
+    height: 136px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
-/*  FORM ********/
-.form-letters {
-    text-align: center;
+
+#addconta-link {
+    color: #2b4681;
+    margin-top: 5px;
 }
+
+div.block-icon .fa-plus-circle {
+    color: #3b5998;
+    margin-left: 53px;
+    margin-top: 54px;
+}
+div.block-icon .fa-plus-circle:hover {
+    cursor: pointer;
+}
+/*
+SECTION BLOCK-RIGHT
+*/
+section .block-right {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 40px;
+}
+
+/*
+FORMULÁRIO 
+*/
+
 
 .title-form {
-    font-size: 26pt;
-    padding: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 120%;
+    margin-bottom: 5px;
+    display: block;
+    color: #333333;
 }
 
-.pform {
-    margin-right: 130px;
+.paragraph { /* CLASSE COM OS 2 PARÁGRAFOS DA SECTION */
+    font-size: 19px;
+    line-height: 126%;
+    margin-bottom: 20px;
+    color: #333333;
 }
 
-/*  FOOTER
-***********/
+.txtform { /* CLASSE GERAL DE FORM */
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc7;
+    margin-bottom: 10px;
+}
+
+.nometxt { /* FORM DE NOME E SOBRENOME */
+    display: inline-block;
+    width: 200px;
+    margin-right: 8px;
+}
+
+.celtxt { /* INPUT DE CEL E SENHA NA MESMA CLASSE PQ OCUPAM O MESMO WIDTH*/
+    width: 414px;
+}
+
+.txtData_form { /* CLASSE COM O TÍTULO DO SELECT DA DATA DE NASCIMENTO E GÊNERO DO FORM*/
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.radGenero {
+    padding-top: 8px;
+    margin-bottom: 15px;
+}
+
+.radtxt {
+    color: #333333;
+    font-size: 19px;
+    font-weight: normal;
+    padding-right: 10px;
+}
+
+.btn_cadastro {
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 7px 20px;
+    border: 1px solid #3b6e22;
+    box-shadow: 2px 3px #eff1f7;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #609e4d;
+}
+
+.btn_cadastro:hover {
+    background: linear-gradient(#79bc64, #578843)
+}
